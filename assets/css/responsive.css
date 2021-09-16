@@ -1,0 +1,36 @@
+@media screen and (max-width: 991px){
+	.single-portfolio-item{
+		width: 50%;
+	}
+	.portfolio-list {
+		margin-bottom: 368px;
+	}
+	.footer-area h2 {
+		font-size: 18px;
+	}
+
+}
+
+
+@media screen and (max-width: 767px){
+	.col-xs-6 {
+		width: 50%;
+	}
+	.single-portfolio-item{
+		width: 100% !important;
+	}
+	.footer-area, .footer-area a {
+		text-align: center;
+	}
+	.footer-area{
+		position: relative;
+	}
+
+	.portfolio-list {
+		margin: 0;
+	}
+	.offcanvas-menu{
+		width: 100%;
+		right: -100%;
+	}
+}
